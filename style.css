@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(255, 226, 227);
+    font-family: Dubai medium;
+    /* Passer på at header går helt ut i kanten*/
+    height: 100%;
+    margin: 0;
+}
+
+/* Style for header med class="menu" */
+.menu {
+    background-color: darkred;
+    overflow: hidden;
+}
+
+.menu a {
+    float: left;
+    color: lightgray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17;
+}
+
+.menu a:hover {
+    background-color: rgb(247, 74, 74);
+    color: black;
+}
+
+/* Style slik at man ser hvilken side man er på i header */
+.menu a.active {
+    background-color: pink;
+    color: white;
+}
+
+/* Style teksten slik at den blir tydligere */
+h1 {
+    text-align: center;
+}
+h2 {
+    color: #333;
+    text-size-adjust: large;
+}
+h5 {
+    text-align: center;
+}
+
+button {
+    background-color: palevioletred;
+    border: none;
+    color: white;
+    padding: 8px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+/* Logg inn fletet er sentrert */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+/* Style for at class="product" */
+.product {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+/* Plaserer div i en "boks" */
+section {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
